@@ -1,0 +1,829 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1619 ]
+[d frameptr 6 ]
+"36 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/drivers/spi_master.c
+[e E92 . `uc
+MASTER0_CONFIG 0
+SPI_DEFAULT 1
+]
+"40
+[e E122 . `uc
+MASTER0 0
+]
+"47 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi_driver.c
+[e E9549 . `uc
+MASTER0_CONFIG 0
+SPI_DEFAULT 1
+]
+"64 C:\Users\Raphael\Desktop\hx711_lib_simple.X\main.c
+[e E9672 . `uc
+MASTER0_CONFIG 0
+SPI_DEFAULT 1
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"417 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+"433
+[v _scale scale `(d  1 s 4 scale ]
+"466
+[v __doprnt _doprnt `(i  1 e 2 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"23 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.c
+[v _HX711_is_ready HX711_is_ready `(uc  1 e 1 0 ]
+"28
+[v _HX711_set_gain HX711_set_gain `(v  1 e 1 0 ]
+"96
+[v _HX711_read HX711_read `(l  1 e 4 0 ]
+"185
+[v _HX711_read_average HX711_read_average `(f  1 e 4 0 ]
+"197
+[v _HX711_get_value HX711_get_value `(f  1 e 4 0 ]
+"202
+[v _HX711_get_units HX711_get_units `(f  1 e 4 0 ]
+"207
+[v _HX711_tare HX711_tare `(v  1 e 1 0 ]
+"213
+[v _HX711_set_scale HX711_set_scale `(v  1 e 1 0 ]
+"223
+[v _HX711_set_offset HX711_set_offset `(v  1 e 1 0 ]
+"56 C:\Users\Raphael\Desktop\hx711_lib_simple.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"35 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `T(uc  1 e 1 0 ]
+"65 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"93
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(uc  1 e 1 0 ]
+"98
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+"103
+[v _EUSART_is_tx_done EUSART_is_tx_done `(uc  1 e 1 0 ]
+"112
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"131
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"145
+[v _putch putch `(v  1 e 1 0 ]
+"152
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"162
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"169
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"173
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"79 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi.c
+[v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
+"33 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi_driver.c
+[v _spi_close spi_close `T(v  1 e 1 0 ]
+"46
+[v _spi_open spi_open `(uc  1 e 1 0 ]
+"68
+[v _spi_exchangeByte spi_exchangeByte `(uc  1 e 1 0 ]
+"76
+[v _spi_exchangeBlock spi_exchangeBlock `(v  1 e 1 0 ]
+"87
+[v _spi_writeBlock spi_writeBlock `(v  1 e 1 0 ]
+"96
+[v _spi_readBlock spi_readBlock `(v  1 e 1 0 ]
+"105
+[v _spi_writeByte spi_writeByte `(v  1 e 1 0 ]
+"109
+[v _spi_readByte spi_readByte `(uc  1 e 1 0 ]
+"117
+[v _spi_isr spi_isr `(v  1 e 1 0 ]
+"126
+[v _spi_setSpiISR spi_setSpiISR `(v  1 e 1 0 ]
+[s S686 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"493 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f1619.h
+[u S692 . 1 `S686 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES692  1 e 1 @13 ]
+[s S243 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"597
+[u S252 . 1 `S243 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES252  1 e 1 @16 ]
+"1614
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1664
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S408 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1678
+[u S414 . 1 `S408 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES414  1 e 1 @141 ]
+"1703
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S509 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"2076
+[s S516 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S523 . 1 `S509 1 . 1 0 `S516 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES523  1 e 1 @149 ]
+"2198
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2256
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2625
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2675
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S701 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2689
+[u S707 . 1 `S701 1 . 1 0 ]
+[v _LATBbits LATBbits `VES707  1 e 1 @269 ]
+"2714
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"3050
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3325
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3372
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3411
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3674
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"3728
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3802
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3864
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3913
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S285 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3939
+[u S294 . 1 `S285 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES294  1 e 1 @413 ]
+"4093
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S264 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4119
+[u S273 . 1 `S264 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES273  1 e 1 @414 ]
+"4273
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"4519
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4577
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4616
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4686
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4940
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"5448
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S579 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"5470
+[u S588 . 1 `S579 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES588  1 e 1 @532 ]
+"5570
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S367 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5603
+[s S373 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S378 . 1 `S367 1 . 1 0 `S373 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES378  1 e 1 @533 ]
+"5840
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"6084
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6129
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6168
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6802
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6847
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6886
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"21977
+[v _SSPCLKPPS SSPCLKPPS `VEuc  1 e 1 @3616 ]
+"22021
+[v _SSPDATPPS SSPDATPPS `VEuc  1 e 1 @3617 ]
+"22153
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"22725
+[v _RA2PPS RA2PPS `VEuc  1 e 1 @3730 ]
+"22945
+[v _RB6PPS RB6PPS `VEuc  1 e 1 @3742 ]
+"358 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[10]ul  1 s 40 dpowers ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\powers.c
+[v __powers_ _powers_ `DC[13]d  1 e 52 0 ]
+"39
+[v __npowers_ _npowers_ `DC[13]d  1 e 52 0 ]
+"36 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.h
+[v _GAIN GAIN `uc  1 e 1 0 ]
+"37
+[v _OFFSET OFFSET `l  1 e 4 0 ]
+"38
+[v _SCALE SCALE `f  1 e 4 0 ]
+[s S197 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/eusart.c
+[u S202 . 1 `S197 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES202  1 e 1 0 ]
+"57
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"58
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"31 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi_driver.c
+[v _spi_interruptHandler spi_interruptHandler `*.37(v  1 e 2 0 ]
+[s S393 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"40
+[v _spi_configuration spi_configuration `DC[2]S393  1 s 8 spi_configuration ]
+"56 C:\Users\Raphael\Desktop\hx711_lib_simple.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@reading reading `f  1 a 4 54 ]
+"58
+[v main@aux aux `[50]uc  1 a 50 0 ]
+"102
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@wh wh `*.5uc  1 a 1 wreg ]
+[s S840 __prbuf 3 `*.5uc 1 ptr 1 0 `*.37(v 1 func 2 1 ]
+"29
+[v sprintf@pb pb `S840  1 a 3 58 ]
+"28
+[v sprintf@ap ap `[1]*.4v  1 a 1 57 ]
+"13
+[v sprintf@wh wh `*.5uc  1 a 1 wreg ]
+[v sprintf@f f `*.25DCuc  1 p 2 49 ]
+"31
+[v sprintf@wh wh `*.5uc  1 a 1 56 ]
+"38
+} 0
+"46 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi_driver.c
+[v _spi_open spi_open `(uc  1 e 1 0 ]
+{
+[v spi_open@spiUniqueConfiguration spiUniqueConfiguration `E9549  1 a 1 wreg ]
+[v spi_open@spiUniqueConfiguration spiUniqueConfiguration `E9549  1 a 1 wreg ]
+"48
+[v spi_open@spiUniqueConfiguration spiUniqueConfiguration `E9549  1 a 1 3 ]
+"65
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[s S840 __prbuf 3 `*.5uc 1 ptr 1 0 `*.37(v 1 func 2 1 ]
+"21
+[v printf@pb pb `S840  1 a 3 55 ]
+"15
+[v printf@ap ap `[1]*.4v  1 a 1 54 ]
+"13
+[v printf@f f `*.26DCuc  1 p 2 49 ]
+"28
+} 0
+"466 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\doprnt.c
+[v __doprnt _doprnt `(i  1 e 2 0 ]
+{
+[s S840 __prbuf 3 `*.5uc 1 ptr 1 0 `*.37(v 1 func 2 1 ]
+[v __doprnt@pb pb `*.4S840  1 a 1 wreg ]
+"528
+[v __doprnt@fval fval `d  1 a 4 41 ]
+[u S885 . 4 `ul 1 vd 4 0 `d 1 integ 4 0 ]
+"538
+[v __doprnt@tmpval tmpval `S885  1 a 4 37 ]
+"540
+[v __doprnt@val val `ul  1 a 4 31 ]
+"509
+[v __doprnt@width width `i  1 a 2 45 ]
+"529
+[v __doprnt@eexp eexp `i  1 a 2 35 ]
+"520
+[v __doprnt@flag flag `us  1 a 2 29 ]
+"512
+[v __doprnt@prec prec `i  1 a 2 27 ]
+"541
+[v __doprnt@len len `ui  1 a 2 25 ]
+"507
+[v __doprnt@c c `uc  1 a 1 47 ]
+"542
+[v __doprnt@cp cp `*.4DCuc  1 a 1 24 ]
+"466
+[v __doprnt@pb pb `*.4S840  1 a 1 wreg ]
+[v __doprnt@f f `*.26DCuc  1 p 2 77 ]
+[v __doprnt@ap ap `*.4*.4v  1 p 1 79 ]
+[v __doprnt@pb pb `*.4S840  1 a 1 48 ]
+"1560
+} 0
+"433
+[v _scale scale `(d  1 s 4 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"436
+[v scale@scl scl `c  1 a 1 50 ]
+"449
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"41
+} 0
+"145 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 p 1 1 ]
+"148
+} 0
+"131
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 p 1 0 ]
+"138
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"417 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"421
+[v fround@prec prec `uc  1 a 1 48 ]
+"426
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 11 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"30
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1043 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1048 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1051 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1043 1 fAsBytes 4 0 `S1048 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1051  1 a 4 24 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 18 ]
+[s S1120 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1123 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1120 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1123  1 a 2 28 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 23 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 22 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 17 ]
+"8
+[v ___flmul@b b `d  1 p 4 4 ]
+[v ___flmul@a a `d  1 p 4 8 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 0 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 5 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 4 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 4 0 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 4 4 ]
+"101
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 0 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 5 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 4 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 4 0 ]
+[v __div_to_l_@f2 f2 `d  1 p 4 4 ]
+"101
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"50 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"55 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"57 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"65
+} 0
+"65 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"169
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"171
+} 0
+"165
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"173
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"175
+} 0
+"207 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.c
+[v _HX711_tare HX711_tare `(v  1 e 1 0 ]
+{
+[v HX711_tare@times times `uc  1 a 1 wreg ]
+"209
+[v HX711_tare@sum sum `d  1 a 4 6 ]
+"207
+[v HX711_tare@times times `uc  1 a 1 wreg ]
+"209
+[v HX711_tare@times times `uc  1 a 1 10 ]
+"211
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 61 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 60 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 51 ]
+"70
+} 0
+"223 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.c
+[v _HX711_set_offset HX711_set_offset `(v  1 e 1 0 ]
+{
+[v HX711_set_offset@offset offset `l  1 p 4 62 ]
+"226
+} 0
+"213
+[v _HX711_set_scale HX711_set_scale `(v  1 e 1 0 ]
+{
+[v HX711_set_scale@scale scale `f  1 p 4 0 ]
+"216
+} 0
+"23
+[v _HX711_is_ready HX711_is_ready `(uc  1 e 1 0 ]
+{
+"26
+} 0
+"202
+[v _HX711_get_units HX711_get_units `(f  1 e 4 0 ]
+{
+[v HX711_get_units@times times `uc  1 a 1 wreg ]
+[v HX711_get_units@times times `uc  1 a 1 wreg ]
+"204
+[v HX711_get_units@times times `uc  1 a 1 28 ]
+"205
+} 0
+"197
+[v _HX711_get_value HX711_get_value `(f  1 e 4 0 ]
+{
+[v HX711_get_value@times times `uc  1 a 1 wreg ]
+[v HX711_get_value@times times `uc  1 a 1 wreg ]
+"199
+[v HX711_get_value@times times `uc  1 a 1 77 ]
+"200
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 6 ]
+[v ___flsub@b b `d  1 p 4 10 ]
+"250
+} 0
+"185 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.c
+[v _HX711_read_average HX711_read_average `(f  1 e 4 0 ]
+{
+[v HX711_read_average@times times `uc  1 a 1 wreg ]
+"189
+[v HX711_read_average@i i `uc  1 a 1 0 ]
+"187
+[v HX711_read_average@sum sum `f  1 a 4 2 ]
+"185
+[v HX711_read_average@times times `uc  1 a 1 wreg ]
+"187
+[v HX711_read_average@times times `uc  1 a 1 1 ]
+"195
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 16 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 15 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 7 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 14 ]
+"44
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 40 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 33 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 38 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 45 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 44 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 37 ]
+"8
+[v ___fldiv@a a `d  1 p 4 20 ]
+[v ___fldiv@b b `d  1 p 4 24 ]
+"185
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 68 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 67 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 66 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 65 ]
+"10
+[v ___fladd@b b `d  1 p 4 49 ]
+[v ___fladd@a a `d  1 p 4 53 ]
+"237
+} 0
+"96 C:\Users\Raphael\Desktop\hx711_lib_simple.X\hx711.c
+[v _HX711_read HX711_read `(l  1 e 4 0 ]
+{
+"117
+[v HX711_read@i i `ui  1 a 2 4 ]
+[u S764 charto32bits 4 `ul 1 value_32 4 0 `[3]uc 1 value_8 3 0 ]
+"104
+[v HX711_read@value value `S764  1 a 4 6 ]
+"98
+[v HX711_read@value_32aux value_32aux `l  1 a 4 0 ]
+"136
+} 0
+"68 C:\Users\Raphael\Desktop\hx711_lib_simple.X\mcc_generated_files/spi_driver.c
+[v _spi_exchangeByte spi_exchangeByte `(uc  1 e 1 0 ]
+{
+[v spi_exchangeByte@b b `uc  1 p 1 0 ]
+"74
+} 0
